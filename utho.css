@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.navbar{
+    height: 15vh;
+    width: 100%;
+}
+.uppernav{
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color:grey;
+    /* margin-left: 20px; */
+    background-color: rgb(246, 241, 241);
+}
+.lowernav{
+    height: 14vh;
+    /* background-color: brown; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 50px;
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+}
+.lowernav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+.signbutton{
+    background-color: rgb(35, 35, 91);
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uppernav i{
+    font-size: 20px;
+    color: rgb(85, 69, 224);
+}
+.hiringbutton{
+    height: 20px;
+    width:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 12px;
+    background-color: rgb(238, 239, 239);
+}
+.uppernav div{
+    display: flex;
+    /* background-color: aqua; */
+}
+.uppernav div ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.inrbutton{
+    height: 20px;
+    width:70px ;
+    display: flex;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+    font-size: 12px;
+    color: rgb(57, 57, 123);
+   gap: 10px;
+
+}
+.inrbutton span{
+    width: 10px;
+    /* background-color: aqua; */
+}
+.inrbutton i{
+    color:rgb(57, 57, 123);
+    /* background-color: aqua; */
+}
+
+.boxparent{
+    height:80vh;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    background: linear-gradient(310deg, rgba(177,192,237,0.978203781512605) 0%, rgba(242,243,246,1) 40%, rgba(238,240,245,1) 48%);
+}
+.box1{
+    height:80vh;
+    width: 100%;
+    /* background-color:rgb(248, 237, 224); */
+    margin-left:50px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.box1 h1{
+    margin-top:60px;
+    color: rgb(28, 28, 105);
+}
+.box2 img{
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.box1 p{
+    color: rgb(160, 160, 160);
+}
+.true{
+    color: rgb(152, 150, 150);
+}
+.box2{
+    height:80vh;
+    width: 100%;
+    margin-top:130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right:40px;
+}
+.getbutton{
+    background-color: rgb(35, 35, 91);
+    height: 40px;
+    width: 210px;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.disc{
+    display: flex;
+    gap: 20px;
+}
+.disc input{
+    width: 370px;
+    height:40px;
+    border:2px solid black;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.cards{
+    height:400px;
+    width: 100%;
+    background-color:rgb(249, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.card1{
+    height:210px;
+    width: 280px;
+    background-color:white;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   
+   
+}
+.card1 h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+    font-weight: 300;
+    text-align: center;
+    width: 240px;
+    font-size:16px;
+}
+
+.card1 img{
+    height: 70px;
+}
+.card1 h3{
+  color: rgb(40, 37, 37);
+} 
+.card1 p{
+    font-size: 18px;
+    color: rgb(68, 60, 60);
+    text-align: center;
+}
+.rank{
+    height: 250px;
+     width: 100%;
+     /* background-color: aquamarine; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+}
+.rank1{
+    height: 250px;
+    width: 100%;
+    /* background-color: rgb(40, 40, 77); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.rank h1{
+    font-size: 40px;
+}
+.rank p{
+    font-size: 25px;
+    color: rgb(60, 55, 55);
+    text-align: center;
+}
+.rank1 img{
+    height: 160px;
+
+}
+.rad{
+    height: 350px;
+    width: 100%;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.rad h1{
+    font-size: 45px;
+    color: rgb(53, 52, 52);
+}
+.rad p{
+    font-size: 22px;
+    color: rgb(97, 94, 94);
+    text-align: center;
+}
+.Ranked{
+    height: 250px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.Ranked1{
+    height:200px;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    color: white; 
+}
+.Ranked1 img{
+    height: 65px;
+    margin-top: 30px;
+}
+.Ranked1 h3{
+    font-size: 23px;
+}
+.Ranked1 p{
+    font-size: 18px;
+}
+.seebutton{
+    background-color:black;
+    height:35px;
+    width: 125px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.see{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sim{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.sim1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sim2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.hor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigimg img{
+    border-radius:0px 0px 5px 5px;
+}
+.experiance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+.experiance1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
